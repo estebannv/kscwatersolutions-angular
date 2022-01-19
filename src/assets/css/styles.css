@@ -1,0 +1,265 @@
+:root {
+    --blue: rgb(47, 103, 255);
+    --dark_blue: rgb(2, 49, 179);
+    --white: #ffffff;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+}
+
+/*NavBar*/
+
+.logo{
+    width: 12rem;
+}
+
+.navbar-style{
+    background-color: var(--white);
+}
+
+.navbar-style li{
+    margin: 0 0.2rem;
+}
+
+.navbar-style li a{
+    color: var(--blue);
+}
+
+.navbar-style li a:hover{
+    color: var(--dark_blue);
+}
+
+.navbar-style .last{
+    background-color: var(--blue);
+    color: var(--white);
+    margin: 0 0.5rem;
+}
+
+.navbar-style .last:hover{
+    background-color: var(--dark_blue);
+    color: var(--white);
+}
+
+.nav-button:focus{
+    border-radius: 0 !important;
+    box-shadow: 0 !important;
+    border: 0 !important;
+}
+
+.icon-es{
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+    height: 1.8rem;
+    width: 1.6rem;
+}
+
+.icon-en{
+    margin: 0.5rem 0 0 1.3rem;
+    height: 1.6rem;
+    width: 1.6rem;
+}
+
+@media (max-width: 675px) {
+    .logo{
+        width: 9rem;
+    }
+}
+
+@media (max-width: 755px) {
+    .navbar-style li a{
+        margin-left: 0.5rem;
+        margin-bottom: 0.5rem;
+        color: var(--blue);
+        font-size: .9rem;
+        font-weight: lighter;
+    }
+    .navbar-style li a[class*="btn"]{
+        width: 6rem;
+    }
+    .icon-en, .icon-es{
+        margin-top: .9rem;
+        margin-left: 0;
+    }
+    .navbar-style .icons{
+        margin-left: 0.4rem
+    }
+}
+
+@media (max-width: 992px) {
+    .icon-en, .icon-es{
+        margin-left: 0;
+    }
+}
+
+/*Carousel*/
+
+.carousel-style{
+    max-width: 100%;
+}
+
+.carousel-caption h5{
+    font-size: 3rem !important;
+}
+
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 40% !important;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+@media (max-width: 1100px) {
+    .carousel-caption{
+        bottom: 30% !important;
+    }
+}
+
+@media (max-width: 985px) {
+    .carousel-caption{
+        bottom: 20% !important;
+    }
+}
+
+/*Home Services*/
+
+.home-services h2{
+    font-size: 1.5rem;
+}
+
+.home-services h3{
+    color: var(--blue);
+}
+
+.home-services p{
+    font-weight: 200;
+}
+
+.home-services .icon{
+    width: 5.7rem;
+}
+
+.card-container{
+    border-radius: 1rem;
+}
+
+.home-services .card-container:hover{
+    background-color: var(--blue);
+    transition: 0.7s;
+    color: white;
+}
+
+.home-services .card-container:hover h3{
+    transition: 0.7s;
+    color: white;
+}
+
+.home-services .card-container:hover .icon{
+    width: 6.45rem;
+    transition: 0.3s;
+}
+
+.card-container h3{
+    font-size: 1.3rem;
+}
+
+
+/*Contact Container*/
+
+.contact-container{
+    background-image: url(../img/bg-contact.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: 300 !important;
+    padding: 5rem;
+}
+
+@media (max-width: 980px) {
+    .contact-container .contact-button{
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 835px) {
+    .contact-container{
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
+
+/*Footer*/
+
+.footer{
+    padding: 5rem !important;
+}
+
+.footer-logo{
+    width: 13rem;
+}
+
+.slogan{
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 0.8rem;
+    color: var(--blue);
+}
+
+.footer-contact{
+    margin-left: 3rem;
+    color: var(--blue);
+}
+
+.footer-contact h4{
+    font-size: 1.5rem;
+}
+
+.footer-contact span{
+    display: block;
+    font-size: 1rem;
+    color: black;
+    margin: 1.5rem 0;
+    font-weight: 300 !important;
+}
+
+.footer-contact a{
+    margin-right: 1rem;
+}
+
+@media (max-width: 797px) {
+    .footer-logo{
+        display: block;
+        width: 13rem;
+        margin: 0 auto;
+    }
+    .slogan{
+        margin-left: 0;
+        margin-bottom: 5rem;
+        text-align: center;
+    }
+    .footer-contact{
+        text-align: center;
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 530px) {
+    .footer{
+        margin-top: 1rem;
+        padding: 1rem !important;
+        margin-bottom: 2rem;
+    }
+    .footer-email{
+        font-size: 0.2;
+    }
+}
