@@ -12,11 +12,15 @@ body{
 /*NavBar*/
 
 .logo{
-    width: 12rem;
+    width: 10.5rem;
+    height: auto;
 }
 
 .navbar-style{
     background-color: var(--white);
+    font-size: 1rem;
+    font-weight: 400;
+    box-shadow: 0px 0px 10px 0px #00000036;
 }
 
 .navbar-style li{
@@ -25,6 +29,10 @@ body{
 
 .navbar-style li a{
     color: var(--blue);
+}
+
+.navbar-style li a[class*="btn"]{
+    font-weight: 300;
 }
 
 .navbar-style li a:hover{
@@ -50,20 +58,17 @@ body{
 
 .icon-es{
     margin-left: 0.4rem;
-    margin-top: 0.4rem;
-    height: 1.8rem;
-    width: 1.6rem;
+    margin-top: 0.5rem;
 }
 
 .icon-en{
     margin: 0.5rem 0 0 1.3rem;
-    height: 1.6rem;
-    width: 1.6rem;
 }
 
 @media (max-width: 675px) {
     .logo{
         width: 9rem;
+        height: auto;
     }
 }
 
@@ -90,6 +95,13 @@ body{
 @media (max-width: 992px) {
     .icon-en, .icon-es{
         margin-left: 0;
+    }
+}
+
+@media (max-width: 310px) {
+    .logo{
+      width: 9rem;  
+      height: auto;
     }
 }
 
@@ -175,24 +187,23 @@ body{
 }
 
 
-/*Contact Container*/
+/*Contact Bar*/
 
-.contact-container{
-    background-image: url(../img/bg-contact.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.contact-bar{
+    background-image: url(../img/contact-bar.jpeg);
+    background-attachment: fixed;
     font-weight: 300 !important;
-    padding: 5rem;
+    padding: 4rem;
 }
 
 @media (max-width: 980px) {
-    .contact-container .contact-button{
+    .contact-bar .contact-button{
         margin-top: 2rem;
     }
 }
 
 @media (max-width: 835px) {
-    .contact-container{
+    .contact-bar{
         padding-right: 2rem;
         padding-left: 2rem;
     }
@@ -201,11 +212,12 @@ body{
 /*Footer*/
 
 .footer{
-    padding: 5rem !important;
+    padding: 3rem !important;
 }
 
 .footer-logo{
-    width: 13rem;
+    width: 11rem;
+    height: auto;
 }
 
 .slogan{
@@ -221,7 +233,7 @@ body{
 }
 
 .footer-contact h4{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .footer-contact span{
@@ -261,5 +273,56 @@ body{
     }
     .footer-email{
         font-size: 0.2;
+    }
+}
+
+/*Contact*/
+
+.contact{
+    margin-top: 1rem;
+}
+
+.contact a{
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.contact h1{
+    font-size: 1.5rem;
+    color: var(--blue);
+}
+
+.contact .info{
+    margin-left: 5rem;
+}
+
+.contact .info a[class*="btn"]{
+    margin-top: 2rem;
+}
+
+.contact .info span{
+    display: block;
+    margin-bottom: 2rem;
+    font-weight: 200;
+}
+
+.form{
+    font-weight: 200;
+}
+
+@media (max-width: 992px) {
+    .contact .info{
+        margin-top: 3rem !important;
+        margin-left: 0 !important;
+        text-align: center;
+    }
+    .contact .info a[class*="btn"]{
+        margin-top: 2.5rem;
+    }
+}
+
+@media (max-width: 310px) {
+    .info{
+        font-size: 0.9rem;
     }
 }
