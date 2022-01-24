@@ -1,6 +1,31 @@
 {
     "home": {
-        "tx-serv": "Services",
-        "first-slide": "First Slide"
+        "tx-serv": "Our Services",
+        "first-slide": "First Slide",
+        "btn-serv": "View all services"
+    },
+    "navbar": {
+        "nav-home":"Home",
+        "nav-about":"About Us",
+        "nav-serv":"Services",
+        "nav-proj":"Projects",
+        "nav-contact":"Contact"
+    },
+    "footer": {
+        "ft-links": "Links",
+        "ft-contact": "Contact",
+        "ft-phone": "Phone",
+        "ft-email": "Email",
+        "ft-socialntw": "Social Networks"
+    },
+    "contact": {
+        "title": "Contact us",
+        "first-name": "First Name",
+        "last-name": "Last Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Your message",
+        "submit": "Submit",
+        "whatsapp": "Contact us via WhatsApp"
     }
 }

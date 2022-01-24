@@ -1,6 +1,31 @@
 {
     "home": {
-        "tx-serv": "Servicios",
-        "first-slide": "Primera diapositiva"
+        "tx-serv": "Nuestros Servicios",
+        "first-slide": "Primera diapositiva",
+        "btn-serv": "Ver todos los servicios"
+    },
+    "navbar": {
+        "nav-home":"Inicio",
+        "nav-about":"Nosotros",
+        "nav-serv":"Servicios",
+        "nav-proj":"Proyectos",
+        "nav-contact":"Contacto"
+    },
+    "footer": {
+        "ft-links": "Enlaces",
+        "ft-contact": "Contacto",
+        "ft-phone": "Teléfono",
+        "ft-email": "Correo Electrónico",
+        "ft-socialntw": "Redes Sociales"
+    },
+    "contact": {
+        "title": "Contáctenos",
+        "first-name": "Nombre",
+        "last-name": "Apellidos",
+        "email": "Correo Electrónico",
+        "subject": "Asunto",
+        "message": "Su mensaje",
+        "submit": "Enviar",
+        "whatsapp": "Contáctenos via WhatsApp"
     }
 }
