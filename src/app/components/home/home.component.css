@@ -1,0 +1,117 @@
+
+/*Header*/
+
+.header{
+    background-image: url('../../../assets/img/carrousell-image3.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 90vh;
+    position: relative;
+}
+
+.header-text{
+    position: absolute;
+    top: 30%;
+    padding-left: 5rem;
+}
+
+.header-text h1{
+    font-size: 2.3rem;
+}
+
+.header-text p{
+    font-size: 1.3rem;
+    margin: 2.5rem 0;
+    width: 55%;
+}
+
+/*Carousel*/
+
+.carousel-style{
+    max-width: 100%;
+}
+
+.carousel-caption h5{
+    font-size: 3rem !important;
+}
+
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 40% !important;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+@media (max-width: 1100px) {
+    .carousel-caption{
+        bottom: 30% !important;
+    }
+}
+
+@media (max-width: 985px) {
+    .carousel-caption{
+        bottom: 20% !important;
+    }
+}
+
+/*Home Services*/
+
+.home-about{
+    color: rgba(22, 22, 22, 0.897);
+    padding: 3rem;
+}
+
+.home-about p{
+    width: 90%;
+}
+
+.home-about img{
+    max-width: 100%;
+    height: auto;
+}
+
+.home-services{
+    background-color: rgb(245, 245, 245);
+}
+
+.home-services h2{
+    font-size: 2rem;
+}
+
+.home-services h3{
+    color: var(--blue);
+}
+
+.home-services p{
+    font-weight: 200;
+}
+
+.home-services .icon{
+    width: 5.7rem;
+}
+
+.card-container{
+    border-radius: 0.5rem;
+    background-color: white;
+    padding: 3.8rem;
+}
+
+.card-container *{
+    margin-bottom: 1rem;
+}
+
+.card-container h3{
+    font-size: 1.3rem;
+}

@@ -1,0 +1,20 @@
+.contact-bar{
+    background-image: url("../../../assets/img/contact-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    font-weight: 300 !important;
+    padding: 5rem;
+}
+
+@media (max-width: 980px) {
+    .contact-bar .contact-button{
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 835px) {
+    .contact-bar{
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
