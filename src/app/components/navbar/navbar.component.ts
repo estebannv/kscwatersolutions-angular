@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import * as AOS from "aos";
 
 @Component({
   selector: 'app-navbar',
@@ -19,7 +20,7 @@ export class NavbarComponent implements OnInit {
    }
 
   ngOnInit(): void {
-
+    AOS.init();
   }
 
   public changeLanguage(lang: any){

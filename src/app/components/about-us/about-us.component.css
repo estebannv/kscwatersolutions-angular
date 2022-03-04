@@ -1,0 +1,49 @@
+.header{
+    background-image: url("../../../assets/img/about-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 7rem;
+}
+
+.header h1{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.initial-paragraph h2{
+    text-align: center;
+}
+
+.initial-paragraph p{
+    font-weight: 200;
+    line-height: 2.2rem;
+}
+
+.about-content h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.content-container p{
+    padding: 0 3rem;
+    line-height: 1.8rem;
+    font-weight: 200;
+}
+
+.business-values{
+    text-align: center;
+} 
+
+.business-values h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+} 
+
+.business-values ul li{
+    list-style: none;
+    margin-bottom: 1rem;
+} 
+
+.business-values ul{
+    padding: 0;
+} 
