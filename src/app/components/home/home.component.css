@@ -21,7 +21,7 @@
     font-size: 2.3rem;
 }
 
-.header-text p{
+.header-text h2{
     font-size: 1.3rem;
     margin: 2.5rem 0;
     width: 55%;
@@ -66,52 +66,45 @@
     }
 }
 
-/*Home Services*/
+/*Home about*/
 
-.home-about{
-    color: rgba(22, 22, 22, 0.897);
-    padding: 3rem;
+.about {
+    margin: 0 auto;
+    padding-top: 4rem;
 }
 
-.home-about p{
-    width: 90%;
+.about h1{
+    font-size: 1.35rem;
+    font-weight: 200;
+    line-height: 3rem;
 }
 
-.home-about img{
-    max-width: 100%;
-    height: auto;
-}
+/*Home services*/
 
 .home-services{
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(252, 252, 252);
 }
 
 .home-services h2{
-    font-size: 2rem;
+    font-weight: 400;
+    font-size: 1.9rem;
 }
 
-.home-services h3{
-    color: var(--blue);
-}
-
-.home-services p{
-    font-weight: 200;
-}
-
-.home-services .icon{
-    width: 5.7rem;
-}
-
-.card-container{
-    border-radius: 0.5rem;
+.content-container{
     background-color: white;
-    padding: 3.8rem;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
-.card-container *{
-    margin-bottom: 1rem;
+.content-container h3{
+    font-weight: 400 !important;
+    font-size: 1.4rem;
+    margin: 2rem 0;
 }
 
-.card-container h3{
-    font-size: 1.3rem;
+.content-container p{
+    padding: 0 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 200;
 }
