@@ -19,6 +19,10 @@
     line-height: 2.2rem;
 }
 
+.about-content{
+    margin: 0 auto;
+}
+
 .about-content h2{
     font-size: 1.5rem;
     font-weight: 400;
@@ -48,3 +52,20 @@
 .business-values ul{
     padding: 0;
 } 
+
+.cont {
+    margin-left: 2.5rem;
+}
+
+.cont h2{
+    font-weight: 400;
+}
+
+.cont p, .cont ul li{
+    font-weight: 200;
+    line-height: 1.8rem;
+}
+
+.cont ul{
+    padding-left: 1rem;
+}
