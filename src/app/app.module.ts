@@ -14,7 +14,6 @@ import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ContactBarComponent } from './components/contact-bar/contact-bar.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
-import { ServicesComponent } from './components/services/services.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
@@ -26,7 +25,6 @@ import { ProjectsComponent } from './components/projects/projects.component';
     ContactComponent,
     ContactBarComponent,
     AboutUsComponent,
-    ServicesComponent,
     ProjectsComponent
   ],
   imports: [

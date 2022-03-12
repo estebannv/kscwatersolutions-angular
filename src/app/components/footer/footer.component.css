@@ -11,7 +11,7 @@
 }
 
 .slogan{
-    font-size: 0.9rem;
+    font-size: 0.93rem;
     margin-top: 1.5rem;
     margin-left: 0.8rem;
     color: var(--blue);
@@ -82,12 +82,12 @@
     }
     .slogan{
         margin-left: 0;
-        margin-bottom: 5rem;
         text-align: center;
     }
     .footer-contact{
         text-align: center;
         margin: 0 !important;
+        padding-top: 3rem;
     }
 }
 
@@ -111,6 +111,6 @@
         text-align: center;
     }
     .footer-contact{
-        margin-top: 3rem;
+        margin-top: 3.4rem;
     }
 }
