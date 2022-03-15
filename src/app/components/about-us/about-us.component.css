@@ -1,5 +1,5 @@
 .header{
-    background-image: url("../../../assets/img/about-bg.jpg");
+    background-image: url("../../../assets/img/backgrounds/about-bg.jpg");
     background-position: center;
     background-size: cover;
     padding: 7rem;
@@ -17,6 +17,10 @@
 .initial-paragraph p{
     font-weight: 200;
     line-height: 2.2rem;
+}
+
+.about-content{
+    margin: 0 auto;
 }
 
 .about-content h2{
@@ -48,3 +52,20 @@
 .business-values ul{
     padding: 0;
 } 
+
+.cont {
+    margin-left: 2.5rem;
+}
+
+.cont h2{
+    font-weight: 400;
+}
+
+.cont p, .cont ul li{
+    font-weight: 200;
+    line-height: 1.8rem;
+}
+
+.cont ul{
+    padding-left: 1rem;
+}

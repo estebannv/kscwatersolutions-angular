@@ -11,14 +11,10 @@
 }
 
 .slogan{
-    font-size: 0.9rem;
+    font-size: 0.93rem;
     margin-top: 1.5rem;
     margin-left: 0.8rem;
     color: var(--blue);
-}
-
-.footer-links{
-    /*margin-left: 1rem;*/
 }
 
 .footer-links h4{
@@ -57,7 +53,7 @@
     font-size: 1.3rem;
 }
 
-.footer-contact span{
+.footer-contact h5{
     display: block;
     font-size: 1rem;
     color: black;
@@ -65,7 +61,7 @@
     font-weight: 300 !important;
 }
 
-.footer-contact span i{
+.footer-contact h5 i{
     font-size: 23px; 
     margin-right: 0.5rem;
 }
@@ -82,12 +78,12 @@
     }
     .slogan{
         margin-left: 0;
-        margin-bottom: 5rem;
         text-align: center;
     }
     .footer-contact{
         text-align: center;
         margin: 0 !important;
+        padding-top: 3rem;
     }
 }
 
@@ -98,7 +94,7 @@
         margin-bottom: 2rem;
     }
 
-    .footer span{
+    .footer h5{
         font-size: 0.8rem;
     }
 }
@@ -111,6 +107,21 @@
         text-align: center;
     }
     .footer-contact{
-        margin-top: 3rem;
+        margin-top: 3.4rem;
+    }
+    .slogan{
+        font-size: 1.1rem;
+    }
+    .footer-contact h4, .footer-contact h5{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 370px) {
+    .footer-email{
+        display: none !important;
+    }
+    .footer-contact h5:first-of-type{
+        padding-bottom: 2rem;
     }
 }
