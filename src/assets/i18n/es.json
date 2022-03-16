@@ -9,6 +9,9 @@
         "tx-about": "es una empresa preparada y con amplia experiencia en la gestión integral del recurso hídrico en Costa Rica. Somos una empresa conformada por un equipo calificado y formado profesionalmente para dar soluciones de agua a proyectos donde el abastecimiento público no ha podido llegar o simplemente donde se busca una segunda opción de abastecimiento.",
         "btn-about": "Conocer más"
     },
+    "home-services": {
+        "":""
+    },
     "navbar": {
         "nav-home": "Inicio",
         "nav-about": "Nosotros",
