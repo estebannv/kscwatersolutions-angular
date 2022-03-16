@@ -17,6 +17,7 @@
 .initial-paragraph p{
     font-weight: 200;
     line-height: 2.2rem;
+    font-size: 1.1rem;
 }
 
 .about-content{
@@ -68,4 +69,39 @@
 
 .cont ul{
     padding-left: 1rem;
+}
+
+@media (max-width: 1215px) {
+    .cont {
+        margin-left: 4rem;
+    }
+}
+
+@media (max-width: 990px) {
+    .cont {
+        margin: 2rem 0 0 0;
+        text-align: center;
+    }
+
+    .cont ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .cont ul li:first-of-type {
+        margin-top: 2rem;
+    }
+
+    .cont ul li {
+        margin-bottom: 1.1rem;
+    }
+
+    img{
+        display: block;
+        margin: auto;
+    }
+
+    p{
+        margin-bottom: 0;
+    }
 }

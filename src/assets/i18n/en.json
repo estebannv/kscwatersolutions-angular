@@ -2,19 +2,24 @@
     "home": {
         "tx-serv": "Our Services",
         "first-slide": "First Slide",
-        "btn-serv": "View all services"
+        "second-slide": "Prueba de bombeo en pozos profundos",
+        "third-slide": "Asesoria en la gestión de proyectos y construcción de acueductos",
+        "fourth-slide": "Permisos de perforación",
+        "fifth-slide": "Construcción de pozos artesanales",
+        "tx-about": "es una empresa preparada y con amplia experiencia en la gestión integral del recurso hídrico en Costa Rica. Somos una empresa conformada por un equipo calificado y formado profesionalmente para dar soluciones de agua a proyectos donde el abastecimiento público no ha podido llegar o simplemente donde se busca una segunda opción de abastecimiento.",
+        "btn-about": "Learn more"
     },
     "navbar": {
-        "nav-home":"Home",
-        "nav-about":"About Us",
-        "nav-serv":"Services",
-        "nav-proj":"Projects",
-        "nav-contact":"Contact"
+        "nav-home": "Home",
+        "nav-about": "About Us",
+        "nav-serv": "Services",
+        "nav-proj": "Projects",
+        "nav-contact": "Contact"
     },
     "footer": {
         "ft-links": "Links",
         "ft-contact": "Contact",
-        "ft-phone": "Phone",
+        "ft-phone": "Phone Number",
         "ft-email": "Email",
         "ft-socialntw": "Social Networks"
     },
@@ -27,5 +32,29 @@
         "message": "Your message",
         "submit": "Submit",
         "whatsapp": "Contact us via WhatsApp"
+    },
+    "about": {
+        "title": "About Us",
+        "tx-about": "Gestionamos el valioso recurso del agua a la luz de la legislación vigente, con ética y responsablidad tanto social como ambiental. Le asesoramos en la toma de decisiones para que su inversión se dirija en la dirección correcta.",
+        "mision-title": "Mision",
+        "mision-tx": "Offer comprehensive solutions to different needs related to the use and exploitation of surface and underground water in Costa Rica, either with the proper management of existing water sources or in the assessment and construction of new sources. We work diligently to guide our clients to make the right decisions in relation to water, which contribute to the functionality and design of their projects, without major complications.",
+        "vision-title": "Vision",
+        "vision-tx": "Consolidate ourselves as a leading company in services for the use of water and its sources, both in the management of water as a fragile resource, legally protected, and in its correct management in the operational phase of use. Our commitment is to be recognized for professionalism, for the quality of our services and for our contribution to sustainable development.",
+        "values-title": "Business Values",
+        "value1": "Social and environmental responsibility",
+        "value2": "Professionalism",
+        "value3": "Constancy",
+        "value4": "Closeness",
+        "value5": "Ethics"
+    },
+    "contact-bar":{
+        "title": "¡Contact with us!",
+        "tx": "Déjenos sus dudas o comentarios y con gusto le atenderémos.",
+        "btn": "Click here"
+    },
+    "projects":{
+        "title": "Projects Completed",
+        "location": "Location",
+        "year": "Year"
     }
 }
