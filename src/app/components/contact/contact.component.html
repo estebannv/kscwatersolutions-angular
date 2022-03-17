@@ -5,28 +5,34 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-lg-6 col-md-12">
-                <form class="form">
+                <form class="form" [formGroup]="contactForm" (ngSubmit)="onSubmit()" #formDir="ngForm">
                     <div class="row">
                         <div class="col">
                             <div class="mb-4">
-                                <input type="text" class="form-control" id="inputName" placeholder="{{'contact.first-name' | translate }}">
+                                <input type="text" class="form-control" id="inputName" formControlName="firstName" placeholder="{{'contact.first-name' | translate }}">
+                                <div *ngIf="!contactForm.value.firstName && formDir.submitted" class="text-danger">{{'contact.invalid-alert' | translate }}</div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="mb-4">
-                                <input type="text" class="form-control" id="inputLastName" placeholder="{{'contact.last-name' | translate }}">
+                                <input type="text" class="form-control" id="inputLastName" formControlName="lastName" placeholder="{{'contact.last-name' | translate }}">
+                                <div *ngIf="!contactForm.value.lastName && formDir.submitted" class="text-danger">{{'contact.invalid-alert' | translate }}</div>
                             </div>
                         </div>
                     </div>
                     <div class="mb-4">
-                        <input type="email" class="form-control" id="inputEmail" placeholder="{{'contact.email' | translate }}">
+                        <input type="email" class="form-control" id="inputEmail" formControlName="email" placeholder="{{'contact.email' | translate }}" required>
+                        <div *ngIf="!contactForm.value.email && formDir.submitted" class="text-danger">{{'contact.invalid-alert' | translate }}</div>
+                        <div *ngIf="this.contactForm.controls['email'].invalid && formDir.submitted" class="text-danger">{{'contact.email-alert' | translate }}</div>
                     </div>
                     <div class="mb-4">
-                        <input type="text" class="form-control" id="inputSubject" placeholder="{{'contact.subject' | translate }}">
+                        <input type="text" class="form-control" id="inputSubject" formControlName="subject" placeholder="{{'contact.subject' | translate }}">
+                        <div *ngIf="!contactForm.value.subject && formDir.submitted" class="text-danger">{{'contact.invalid-alert' | translate }}</div>
                     </div>
                     <div class="mb-4">
-                        <textarea class="form-control" id="message-area" name="message-area" rows="4" cols="50"
+                        <textarea class="form-control" id="message-area" formControlName="message" rows="4" cols="50"
                             placeholder="{{'contact.message' | translate }}"></textarea>
+                            <div *ngIf="!contactForm.value.message && formDir.submitted" class="text-danger">{{'contact.invalid-alert' | translate }}</div>
                     </div>
                     <div class="text-center">
                         <button type="submit" class="btn btn-primary text-center">{{'contact.submit' | translate }}</button>
@@ -35,13 +41,11 @@
             </div>
             <div class="col-lg-6 col-md-12">
                 <div class="info">
-                    <span class="info-email">{{'footer.ft-email'| translate}}:
-                        kathia.hernz@kscwatersolutions.com</span>
+                    <span class="info-email">{{'footer.ft-email'| translate}}: info@kscwatersolutions.com</span>
                     <span>{{'footer.ft-phone'| translate}}: +506 8834-0502 </span>
                     <span>{{'footer.ft-socialntw'| translate}}:</span>
                     <div>
                         <a href="https://m.facebook.com/KSC-Water-Key-Solutions-SA-103463398635235/" target="blank"><i class="fab fa-facebook fa-2x"></i></a>
-                        <!--<a href=""><i class="fab fa-youtube fa-2x" style="color: red;"></i></a>-->
                     </div>
                     <a class="btn btn-success" href="https://wa.me/50688340502">¡{{'contact.whatsapp'| translate}}! <i class="fab fa-whatsapp"></i></a>
                 </div>

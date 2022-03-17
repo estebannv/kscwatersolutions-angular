@@ -29,12 +29,14 @@
     "contact": {
         "title": "Contáctenos",
         "first-name": "Nombre",
-        "last-name": "Apellidos",
+        "last-name": "Apellido",
         "email": "Correo Electrónico",
         "subject": "Asunto",
         "message": "Su mensaje",
         "submit": "Enviar",
-        "whatsapp": "Contáctenos via WhatsApp"
+        "whatsapp": "Contáctenos via WhatsApp",
+        "invalid-alert": "Este campo es requerido",
+        "email-alert":"Correo electrónico invalido"
     },
     "about": {
         "title": "Acerca de nosotros",
