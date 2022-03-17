@@ -24,10 +24,4 @@ export class ContactComponent implements OnInit {
   ngOnInit(): void {
 
   }
-
-  onSubmit() {
-    if(this.contactForm.valid){
-      alert('enviado con exito');
-    }
-  }
 }
