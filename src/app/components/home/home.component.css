@@ -1,11 +1,12 @@
 /*Carousel*/
 
 .carousel-style img{
-    min-height: 23rem;
+    min-height: 20rem;
+    max-height: 100vh;
 }
 
 .caption-size{
-    bottom: 43%;
+    bottom: 42%;
     text-transform: uppercase;
 }
 

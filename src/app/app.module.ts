@@ -15,6 +15,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ContactBarComponent } from './components/contact-bar/contact-bar.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    ReactiveFormsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

@@ -9,7 +9,7 @@ import * as AOS from "aos";
 })
 export class NavbarComponent implements OnInit {
 
-  activeLang = window.sessionStorage.getItem('language');
+  activeLang = window.localStorage.getItem('language');
 
   constructor(private translate: TranslateService) {
     if(this.activeLang === null){
@@ -25,7 +25,7 @@ export class NavbarComponent implements OnInit {
 
   public changeLanguage(lang: any){
     this.translate.use(lang);
-    window.sessionStorage.setItem('language', lang);
+    window.localStorage.setItem('language', lang);
   }
 
 }
