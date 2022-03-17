@@ -10,7 +10,44 @@
         "btn-about": "Conocer más"
     },
     "home-services": {
-        "":""
+        "service1":{
+            "title":"Concesiones de agua",
+            "tx":"Le ayudamos con sus trámites ante Dirección de Aguas de MINAE:",
+            "s1":"Concesiones de aprovechamiento de nacientes, quebradas y pozos",
+            "s2":"Concesión generación de energía hidroeléctrica",
+            "s3":"Permisos de perforación",
+            "s4":"Traspaso de concesión",
+            "s5":"Renovación de concesión",
+            "s6":"Desglose de caudal"
+        },
+        "service2":{
+            "title":"Pozos profundos",
+            "tx":"Le asesoramos en la ubicación, construcción y aprovechamiento de aguas subterránea mediante la perforación de pozos profundos. Realizamos:",
+            "s1":"Limpieza de pozos",
+            "s2":"Inspección con cámara sumergible",
+            "s3":"Instalación, revisión y reparación de equipo de bombeo",
+            "s4":"Instalación de hidrómetros"
+        },
+        "service3":{
+            "title":"Pozos artesanales",
+            "tx":"Asesoramos en la ubicación, excavamos y construimos pozos artesanales que cumplan con los requisitos técnicos para la inscripción cuando se trata de uso doméstico o concesión de agua para cualquier otro uso."
+        },
+        "more-services":{
+            "title": "Más de nuestros servicios",
+            "s1":"Consulta de afectación de propiedades por fuentes de agua",
+            "s2":"Dictamen de cuerpo de agua",
+            "s3":"Estudios hidrológicos e hidrogeológicos",
+            "s4":"Diseño y construcción de acueductos residenciales",
+            "s5":"Construcción de obras calibradoras",
+            "s6":"Captación y derivación de agua superficial",
+            "s7":"Reconsideración de zona de protección de cauces",
+            "s8":"Cierre técnico de pozos",
+            "s9":"Muestreo de aguas",
+            "s10":"Trámites de exoneración de alcantarillado sanitario con AyA",
+            "s11":"Alineamiento Fluvial ante INVU",
+            "s12":"Trámites D1 y D2 ante SETENA",
+            "s13":"Trámites de vertido de agua residual con MINAE"
+        }
     },
     "navbar": {
         "nav-home": "Inicio",
@@ -60,6 +97,11 @@
     "projects":{
         "title": "Proyectos Realizados",
         "location": "Ubicación",
-        "year": "Año"
+        "year": "Año",
+        "p1":"Pozo Perforado Escuela San Gerardo",
+        "p2":"Pozo perforado Ocean Overlook",
+        "p3":"Mejoras en acueducto residencial",
+        "p4":"Inspección de proyecto para aprovechamiento de nacientes",
+        "p5":"Cierre técnico de pozo"
     }
 }

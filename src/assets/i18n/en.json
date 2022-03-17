@@ -1,16 +1,53 @@
 {
     "home": {
         "tx-serv": "Our Services",
-        "first-slide": "First Slide",
-        "second-slide": "Prueba de bombeo en pozos profundos",
-        "third-slide": "Asesoria en la gestión de proyectos y construcción de acueductos",
-        "fourth-slide": "Permisos de perforación",
-        "fifth-slide": "Construcción de pozos artesanales",
-        "tx-about": "es una empresa preparada y con amplia experiencia en la gestión integral del recurso hídrico en Costa Rica. Somos una empresa conformada por un equipo calificado y formado profesionalmente para dar soluciones de agua a proyectos donde el abastecimiento público no ha podido llegar o simplemente donde se busca una segunda opción de abastecimiento.",
+        "first-slide": "Superficial and underground water concession",
+        "second-slide": "Pumping test for deep wells",
+        "third-slide": "Advice on project management and aqueducts construction",
+        "fourth-slide": "Drilling permits",
+        "fifth-slide": "Construction of artisanal wells",
+        "tx-about": "is a company prepared and with extensive experience in the comprehensive management of water resources in Costa Rica. We are a company made up of a qualified and professionally trained team to provide water solutions to projects where public supply has not been able to reach or simply where a second supply option is sought.",
         "btn-about": "Learn more"
     },
     "home-services": {
-        "":""
+        "service1":{
+            "title":"Water concessions",
+            "tx":"We can help you with your procedures with the MINAE Water Directorate:",
+            "s1":"Concessions for the use of springs, streams and water wells",
+            "s2":"Hydroelectric power generation concession",
+            "s3":"Drilling permits",
+            "s4":"Transfer of concession's owner",
+            "s5":"Concession renewal",
+            "s6":"Flow breakdown"
+        },
+        "service2":{
+            "title":"Deep wells",
+            "tx":"We advise you on the location, construction and use of groundwater by drilling deep wells. We perform:",
+            "s1":"Cleaning of wells",
+            "s2":"Inspection with submersible camera",
+            "s3":"Installation, review and repair of pumping equipment",
+            "s4":"Hydrometers installation"
+        },
+        "service3":{
+            "title":"Artisanal wells",
+            "tx":"We advise on the location, during digging and building of artisanal wells according to the technical requirements for registration when water is going to be used for domestic use or water concession for any other water use."
+        },
+        "more-services":{
+            "title": "More of our services",
+            "s1":"Consultation of affectation of properties by water sources",
+            "s2":"Official waterbody declarations",
+            "s3":"Hydrological and hydrogeological studies",
+            "s4":"Design and construction of residential aqueducts",
+            "s5":"Construction of calibration valves",
+            "s6":"Collection and segregation of surface water",
+            "s7":"Reconsideration of riverbed protection zone",
+            "s8":"Technical closure of wells",
+            "s9":"Water sampling",
+            "s10":"Exoneratating procedures of sanitary sewer with AyA",
+            "s11":"Alignment procedures for superficial waterbodys with INVU",
+            "s12":"Procedures D1 and D2 with SETENA",
+            "s13":"Wastewater discharge procedures with MINAE"
+        }
     },
     "navbar": {
         "nav-home": "Home",
@@ -40,7 +77,7 @@
     },
     "about": {
         "title": "About Us",
-        "tx-about": "Gestionamos el valioso recurso del agua a la luz de la legislación vigente, con ética y responsablidad tanto social como ambiental. Le asesoramos en la toma de decisiones para que su inversión se dirija en la dirección correcta.",
+        "tx-about": "We handle the valuable resource of water in accordance with current legislation, with ethics and both social and environmental responsibility. We advise you in making decisions so that your investment is headed in the right direction.",
         "mision-title": "Mision",
         "mision-tx": "Offer comprehensive solutions to different needs related to the use and exploitation of surface and underground water in Costa Rica, either with the proper management of existing water sources or in the assessment and construction of new sources. We work diligently to guide our clients to make the right decisions in relation to water, which contribute to the functionality and design of their projects, without major complications.",
         "vision-title": "Vision",
@@ -54,12 +91,17 @@
     },
     "contact-bar":{
         "title": "¡Contact with us!",
-        "tx": "Déjenos sus dudas o comentarios y con gusto le atenderémos.",
+        "tx": "Leave us your questions or comments and we will gladly assist you.",
         "btn": "Click here"
     },
     "projects":{
         "title": "Projects Completed",
         "location": "Location",
-        "year": "Year"
+        "year": "Year",
+        "p1":"Drilled Well San Gerardo School",
+        "p2":"Drilled Well Ocean Overlook",
+        "p3":"Residential aqueduct improvements",
+        "p4":"Inspection of project to take advantage of water springs",
+        "p5":"Technical closure of well"
     }
 }
