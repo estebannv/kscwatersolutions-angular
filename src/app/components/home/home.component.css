@@ -6,12 +6,12 @@
 }
 
 .caption-size{
-    bottom: 41%;
+    bottom: 42%;
     text-transform: uppercase;
 }
 
 .caption-size h5{
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 @media (max-width: 1245px) {
@@ -32,16 +32,6 @@
     }
 }
 
-@media (max-width: 310px) {
-    .about{
-        padding-top: 3rem !important;
-    }
-    .about h1{
-        font-size: 1rem !important;
-        line-height: 1.7rem !important;
-    }
-}
-
 /*Home about*/
 
 .about {
@@ -50,9 +40,21 @@
 }
 
 .about h1{
-    font-size: 1.35rem;
+    font-size: 1.1rem;
     font-weight: 200;
-    line-height: 3rem;
+    line-height: 2.5rem;
+}
+
+@media (max-width: 310px) {
+    .about{
+        padding-top: 3rem !important;
+    }
+}
+
+@media (max-width: 415px) {
+    .about h1{
+        line-height: 2.2rem;
+    }
 }
 
 /*Home services*/
@@ -66,8 +68,8 @@
 
 .services-title{
     font-weight: 400;
-    padding: 7rem 0;
-    font-size: 2.3rem;
+    padding: 5rem 0;
+    font-size: 2rem;
 }
 
 .content-container ul li{

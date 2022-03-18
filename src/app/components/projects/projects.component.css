@@ -3,7 +3,7 @@
     background-image: url("../../../assets/img/backgrounds/project-bg.jpg");
     background-position: center;
     background-size: cover;
-    padding: 7rem;
+    padding: 5rem 0;
 }
 
 .banner h1{
@@ -31,5 +31,9 @@
 @media (max-width: 990px) {
     .project-details h2{
         margin-top: 2rem;
+    }
+    .banner h1{
+        color: white;
+        font-size: 1.5rem;
     }
 }
