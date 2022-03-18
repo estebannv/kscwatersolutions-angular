@@ -3,7 +3,7 @@
         <div class="fixed-top">
             <nav class="navbar navbar-expand-lg navbar-style">
                 <div class="container-fluid">
-                    <a class="navbar-brand navbar-text" href="/">
+                    <a class="navbar-brand navbar-text" routerLink="/">
                         <img class="logo" src="../../../assets/img/logo.jpg" alt="Logo">
                     </a>
                     <button class="navbar-toggler nav-button" type="button" data-bs-toggle="offcanvas"
@@ -13,7 +13,7 @@
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
-                            <a class="navbar-brand navbar-text" href="/">
+                            <a class="navbar-brand navbar-text" routerLink="/">
                                 <img class="logo" src="../../../assets/img/logo.jpg" alt="Logo">
                             </a>
                             <button class="navbar-toggler nav-button" type="button" data-bs-toggle="offcanvas"
@@ -24,18 +24,18 @@
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="/">{{'navbar.nav-home'|
+                                    <a class="nav-link" aria-current="page" routerLink="/">{{'navbar.nav-home'|
                                         translate}}</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/about-us">{{'navbar.nav-about'| translate}}</a>
+                                    <a class="nav-link" routerLink="/about-us">{{'navbar.nav-about'| translate}}</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/projects">{{'navbar.nav-proj'| translate}}</a>
+                                    <a class="nav-link" routerLink="/projects">{{'navbar.nav-proj'| translate}}</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link btn btn-primary text-white last"
-                                        href="/contact">{{'navbar.nav-contact'| translate}}</a>
+                                        routerLink="/contact">{{'navbar.nav-contact'| translate}}</a>
                                 </li>
                                 <li class="nav-item icons">
                                     <img class="icon-en" src="../../../assets/img/icons/en_icono.png" alt="English Icon"
