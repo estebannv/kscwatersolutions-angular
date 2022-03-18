@@ -80,18 +80,28 @@
         margin-top: .9rem;
         margin-left: 0;
     }
-    .navbar-style .icons{
-        margin-left: 0.8rem
-    }
+}
+
+.icons span{
+    display: none;
 }
 
 @media (max-width: 992px) {
+    .icons span{
+        display: inline-block;
+        color: rgb(129, 129, 129);
+        text-decoration: underline;
+    }
     .icon-en, .icon-es{
-        margin-left: 0;
+        margin-left: 0.5rem;
+        margin-top: 0;
+    }
+    .offcanvas-body{
+        margin: 0 0.5rem;
     }
     .offcanvas-body ul li a{
         font-weight: 400;
-        margin: 0.3rem 0;
+        margin: 0.5rem 0;
     }
     .last{
         display: inline-block;
