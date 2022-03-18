@@ -121,7 +121,4 @@
     .footer-email{
         display: none !important;
     }
-    .footer-contact h5:first-of-type{
-        padding-bottom: 2rem;
-    }
 }

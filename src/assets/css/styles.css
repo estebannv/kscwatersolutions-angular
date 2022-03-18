@@ -6,4 +6,11 @@
 
 body{
     font-family: 'Be Vietnam Pro', sans-serif;
+    margin-top: 5.1rem;
+}
+
+@media (max-width: 310px) {
+    body{
+        margin-top: 4rem;
+    }
 }

@@ -98,13 +98,17 @@
         padding: 0.5rem;
     }
     .navbar-style .icons{
-        margin-top: 0.6rem;
+        margin-top: 1rem;
     }
 }
 
 @media (max-width: 310px) {
     .logo{
-      width: 9rem;  
-      height: auto;
+      width: auto;  
+      height: 2.4rem;
     }
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 0 !important;
 }
