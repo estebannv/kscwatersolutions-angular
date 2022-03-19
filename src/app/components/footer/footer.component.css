@@ -14,12 +14,12 @@
     font-size: 0.93rem;
     margin-top: 1.5rem;
     margin-left: 0.8rem;
-    color: var(--blue);
+    color: rgb(2, 49, 179);
 }
 
 .footer-links h4{
     font-size: 1.3rem;
-    color: var(--blue);
+    color: rgb(2, 49, 179);
 }
 
 .footer-links ul{
@@ -46,7 +46,7 @@
 
 .footer-contact{
     margin-left: 0rem;
-    color: var(--blue);
+    color: rgb(2, 49, 179);
 }
 
 .footer-contact h4{
