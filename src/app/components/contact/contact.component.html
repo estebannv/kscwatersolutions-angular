@@ -5,36 +5,31 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-lg-6 col-md-12">
-                <form class="form" name="contact-form" method="POST" data-netlify="true">
+                <form class="form" action="https://formsubmit.co/navarro.estn@gmail.com" method="POST">
                     <div class="row">
                         <div class="col">
                             <div class="mb-4">
-                                <input type="text" class="form-control" name="inputName"
-                                    placeholder="{{'contact.first-name' | translate }}" required>
+                                <input type="text" class="form-control" name="name" required placeholder="{{'contact.first-name' | translate }}">
                             </div>
                         </div>
                         <div class="col">
                             <div class="mb-4">
-                                <input type="text" class="form-control" name="inputLastName"
-                                    placeholder="{{'contact.last-name' | translate }}" required>
+                                <input type="text" class="form-control" name="lastName" required placeholder="{{'contact.last-name' | translate }}">
                             </div>
                         </div>
                     </div>
                     <div class="mb-4">
-                        <input type="email" class="form-control" name="inputEmail"
-                            placeholder="{{'contact.email' | translate }}" required>
+                        <input type="email" class="form-control" name="email" required placeholder="{{'contact.email' | translate }}">
                     </div>
                     <div class="mb-4">
-                        <input type="text" class="form-control" name="inputSubject"
-                            placeholder="{{'contact.subject' | translate }}" required>
+                        <input type="subject" class="form-control" name="email" required placeholder="{{'contact.subject' | translate }}">
                     </div>
                     <div class="mb-4">
-                        <textarea class="form-control" name="message-area" rows="4" cols="50"
-                            placeholder="{{'contact.message' | translate }}" required></textarea>
+                        <textarea name="message" class="form-control" id="" cols="50" rows="4"
+                        placeholder="{{'contact.message' | translate }}"></textarea>
                     </div>
                     <div class="text-center">
-                        <button type="submit" class="btn btn-primary text-center">
-                            {{'contact.submit' | translate }}</button>
+                        <button class="btn btn-primary" type="submit">{{'contact.submit' | translate }}</button>
                     </div>
                 </form>
             </div>
