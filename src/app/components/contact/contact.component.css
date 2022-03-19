@@ -20,7 +20,7 @@
 }
 
 .contact .info a[class*="btn"]{
-    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .contact .info span{
@@ -40,7 +40,7 @@
         text-align: center;
     }
     .contact .info a[class*="btn"]{
-        margin-top: 2.5rem;
+        margin-top: 1rem;
     }
 }
 
