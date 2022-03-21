@@ -40,9 +40,16 @@
 }
 
 .about h1{
-    font-size: 1.15rem;
+    font-size: 1.25rem;
     font-weight: 200;
     line-height: 2.5rem;
+}
+
+
+@media (max-width: 915px) {
+    .about h1{
+        font-size: 1.15rem;
+    }
 }
 
 @media (max-width: 310px) {
