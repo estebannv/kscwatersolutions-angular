@@ -16,7 +16,7 @@ import { ContactBarComponent } from './components/contact-bar/contact-bar.compon
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ReactiveFormsModule } from '@angular/forms';
-//import { HashLocationStrategy,LocationStrategy } from '@angular/common';
+import { HashLocationStrategy,LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -44,7 +44,7 @@ import { ReactiveFormsModule } from '@angular/forms';
       },
     })
   ],
-  providers: [/*{provide: LocationStrategy, useClass: HashLocationStrategy}*/],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
