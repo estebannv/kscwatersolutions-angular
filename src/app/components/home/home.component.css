@@ -104,6 +104,7 @@
 
 .paragraph-size{
     width: 75%;
+    text-align: justify !important;
 }
 
 @media (max-width: 615px) {
