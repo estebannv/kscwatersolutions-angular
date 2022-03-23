@@ -15,18 +15,18 @@
             "tx":"We can help you with your procedures with the MINAE Water Directorate:",
             "s1":"Concessions for the use of springs, streams and water wells",
             "s2":"Hydroelectric power generation concession",
-            "s3":"Drilling permits",
-            "s4":"Transfer of concession's owner",
-            "s5":"Concession renewal",
-            "s6":"Flow breakdown"
+            "s3":"Transfer of concession's owner",
+            "s4":"Concession renewal",
+            "s5":"Flow breakdown"
         },
         "service2":{
             "title":"Deep wells",
             "tx":"We advise you on the location, construction and use of groundwater by drilling deep wells. We perform:",
-            "s1":"Cleaning of wells",
-            "s2":"Inspection with submersible camera",
-            "s3":"Installation, review and repair of pumping equipment",
-            "s4":"Hydrometers installation"
+            "s1":"Drilling permits",
+            "s2":"Cleaning of wells",
+            "s3":"Inspection with submersible camera",
+            "s4":"Installation, review and repair of pumping equipment",
+            "s5":"Hydrometers installation"
         },
         "service3":{
             "title":"Artisanal wells",

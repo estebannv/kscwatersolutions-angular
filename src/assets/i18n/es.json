@@ -15,18 +15,18 @@
             "tx":"Le ayudamos con sus trámites ante Dirección de Aguas de MINAE:",
             "s1":"Concesiones de aprovechamiento de nacientes, quebradas y pozos",
             "s2":"Concesión generación de energía hidroeléctrica",
-            "s3":"Permisos de perforación",
-            "s4":"Traspaso de concesión",
-            "s5":"Renovación de concesión",
-            "s6":"Desglose de caudal"
+            "s3":"Traspaso de concesión",
+            "s4":"Renovación de concesión",
+            "s5":"Desglose de caudal"
         },
         "service2":{
             "title":"Pozos profundos",
             "tx":"Le asesoramos en la ubicación, construcción y aprovechamiento de aguas subterránea mediante la perforación de pozos profundos. Realizamos:",
-            "s1":"Limpieza de pozos",
-            "s2":"Inspección con cámara sumergible",
-            "s3":"Instalación, revisión y reparación de equipo de bombeo",
-            "s4":"Instalación de hidrómetros"
+            "s1":"Permisos de perforación",
+            "s2":"Limpieza de pozos",
+            "s3":"Inspección con cámara sumergible",
+            "s4":"Instalación, revisión y reparación de equipo de bombeo",
+            "s5":"Instalación de hidrómetros"
         },
         "service3":{
             "title":"Pozos artesanales",
